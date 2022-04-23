@@ -1,0 +1,62 @@
+.sticky-container {
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+    position: sticky;
+}
+
+.pin-button {
+    position: absolute;
+    border: none;
+    border-radius: 0.7git em;
+    background-color: whitesmoke;
+    top: 15px;
+    right: 15px;
+}
+
+.pin-button:hover {
+    background-color: #dfdfdf;
+}
+.pin-button:active {
+    box-shadow: inset 0 0 10px #7f7f7f;
+    background-color: whitesmoke;
+}
+.pinned {
+    box-shadow: inset 0 0 10px #7f7f7f;
+    fill: #030186;
+    background-color: whitesmoke;
+}
+.pin-icon {
+    width: 1.5em;
+    height: 1.5em;
+}
+.pin-icon path,
+.pin-icon polygon,
+.pin-icon rect {
+    fill: #4691f6;
+    stroke-width: 2px;
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.4));
+}
+.pin-button:active .pin-icon path {
+    fill: #0301a6;
+}
+
+
+/*
+.pin-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+}
+*/
+
+.sticky-container-title {
+    font-size: 24px;
+}

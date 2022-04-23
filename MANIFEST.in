@@ -1,0 +1,11 @@
+include dash_sticky_container/dash_sticky_container.min.js
+include dash_sticky_container/dash_sticky_container.min.js.map
+include dash_sticky_container/async-*.js
+include dash_sticky_container/async-*.js.map
+include dash_sticky_container/*-shared.js
+include dash_sticky_container/*-shared.js.map
+include dash_sticky_container/metadata.json
+include dash_sticky_container/package-info.json
+include README.md
+include LICENSE
+include package.json

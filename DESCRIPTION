@@ -1,0 +1,13 @@
+Package: dashStickyContainer
+Title: Dash Sticky Container
+Version: 0.0.1
+Description: Dash Sticky Container
+Depends: R (>= 3.0.2)
+Imports: 
+Suggests: 
+License: MIT + file LICENSE
+URL: https://github.com/lcopey/dash-sticky-container
+BugReports: https://github.com/lcopey/dash-sticky-container/issues
+Encoding: UTF-8
+LazyData: true
+KeepSource: true
